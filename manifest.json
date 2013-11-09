@@ -1,0 +1,18 @@
+{
+  "name": "xkcd news enhancer",
+  "description": "Greatly enhances news articles according to xkcd 1288.",
+  "icons": {"128":"icon.png"},
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false 
+  },
+  "browser_action": {
+    "default_title": "Enhance this page",
+    "default_icon": "icon.png"  
+  },
+  "manifest_version": 2
+}
